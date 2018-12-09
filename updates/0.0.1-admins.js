@@ -9,7 +9,7 @@ require('dotenv').config({ path: '../' });
  */
 
 exports.create = {
-	Y: process.env.ADMIN_MIGRATION,
+	Y: [{ 'name.first': 'Admin', 'name.last': 'User', 'email': 'chayakornwc', 'password': process.env.PASSWORD_FIRST, 'isAdmin': true }],
 };
 
 /*

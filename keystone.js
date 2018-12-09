@@ -18,7 +18,7 @@ keystone.init({
 	'favicon': 'public/favicon.ico',
 	'views': 'templates/views',
 	'view engine': 'pug',
-
+	'wysiwyg cloudinary images': true,
 //	'emails': 'templates/emails',
 	'port': '3030',
 	'auto update': true,
